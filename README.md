@@ -1,2 +1,2 @@
-# cloudcone-partner-whmcs
+# CloudCone Partner WHMCS Module
 CloudCone Partner/Reseller platform WHMCS module
