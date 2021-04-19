@@ -1,0 +1,30 @@
+{
+    "schema": "1.0",
+    "type": "whmcs-servers",
+    "name": "cloudcpartner",
+    "license": "opensource",
+    "category": "vpscloud",
+    "description": {
+        "name": "CloudCone Partner",
+        "tagline": "Direct intergration to your partner account at CloudCone",
+        "long": "This module lets you deploy virtual machines on your CloudCone partner account within your cloud resources",
+        "features": [
+            "Automatically deploy servers on the cloud",
+            "Automatic suspend and reactivation",
+            "Automated password resets and package upgrades",
+            "Multiple end user features"
+        ]
+    },
+    "logo": {
+        "filename": "logo.png"
+    },
+    "support": {
+        "docs_url": ""
+    },
+    "authors": [
+        {
+            "name": "CloudCone, LLC",
+            "homepage": "https:\/\/cloudcone.com\/"
+        }
+    ]
+}
