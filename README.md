@@ -1,6 +1,6 @@
 # CloudCone Partner WHMCS Module
 
-Our WHMCS Partner Account module provides an automated solution for provisioning compute servers through WHMCS allowing you to offer them to your clients. The module allows you to provision servers on your [Partner account.](https://cloudcone.com/vps-reseller-platform
+Our WHMCS Partner Account module provides an automated solution for provisioning compute servers through WHMCS allowing you to offer them to your clients. The module allows you to provision servers on your [Partner account](https://cloudcone.com/vps-reseller-platform)
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ The generated key will be displayed to you on the screen. We'll use these later 
 ## Installation
 
 1. Download the latest release of the CloudCone WHMCS Module.
-2. Unzip and upload the `cloudcpartner` directory from the downloaded zip file to the `/modules/servers` directory on your server.
+2. Unzip and upload the `cloudcpartner` directory from the downloaded zip file to the `/modules/servers` directory on your WHMCS installation.
 
 
 ## Setting up WHMCS
