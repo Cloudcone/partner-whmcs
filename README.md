@@ -12,7 +12,7 @@ Log in and visit the [API Settings](https://app.cloudcone.com/user/api) page.
 
 Generate an API key pair by clicking on the Generate new button and enter a name for you to identify your key.
 
-![](https://storage.crisp.chat/users/helpdesk/website/b4a6582f-f407-4054-b73c-d6e4bf698b1e/41921562-b130-4689-af86-8c4cb0273441.jpg)
+![](https://storage.crisp.chat/users/helpdesk/website/b4a6582f-f407-4054-b73c-d6e4bf698b1e/41921562-b130-4689-af86-8c4cb0273441.jpg)        
 The generated key will be displayed to you on the screen. We'll use these later when setting up the server on WHMCS.
 
 
