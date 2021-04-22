@@ -70,7 +70,7 @@ class CloudConePartnerAPI
         ), $features);
         
         return $this->sendRequest(
-            "/partner/$this->partner_id/compute",
+            "/partner/$this->partner_id/compute/create",
             'POST',
             $req_params,
         );

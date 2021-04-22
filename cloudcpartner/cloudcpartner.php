@@ -110,7 +110,7 @@ function cloudcpartner_CreateAccount(array $params)
             array(
                 'backups' => (isset($params['configoption6'])) ? filter_var($params['configoption6'], FILTER_VALIDATE_BOOLEAN) : false,
                 'snapshots' => (isset($params['configoption7'])) ? filter_var($params['configoption7'], FILTER_VALIDATE_BOOLEAN) : false,
-                'cloud_view' => (isset($params['configoption8'])) ? filter_var($params['configoption8'], FILTER_VALIDATE_BOOLEAN) : false,
+                'cloudview' => (isset($params['configoption8'])) ? filter_var($params['configoption8'], FILTER_VALIDATE_BOOLEAN) : false,
                 'firewall' => (isset($params['configoption9'])) ? filter_var($params['configoption9'], FILTER_VALIDATE_BOOLEAN) : false,
             ),
         ), true);

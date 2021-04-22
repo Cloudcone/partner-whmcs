@@ -5,7 +5,7 @@
     "license": "opensource",
     "category": "vpscloud",
     "description": {
-        "name": "CloudCone Partner",
+        "name": "CloudCone Partner Agent",
         "tagline": "Direct intergration to your partner account at CloudCone",
         "long": "This module lets you deploy virtual machines on your CloudCone partner account within your cloud resources",
         "features": [

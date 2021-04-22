@@ -33,7 +33,7 @@ function cloudcpartner_SetConfigurableOptions($product_id)
         if (is_numeric($product_id)) {
             $pdo = Capsule::connection()->getPdo();
 
-            $group_id = $pdo->query("SELECT servergroup FROM tblproducts WHERE id = $product_id")->fetchObject()->servergroup;
+            $group_id = $pdo->query("SELECT servergroup FROM tblproducts WHERE id = $product_id")->fetchObject()->id;
 
             if(!$group_id)
             {
