@@ -116,12 +116,13 @@ function cloudcpartner_CreateAccount(array $params)
         ), true);
 
         $instance_ip = $response['__data']['main_ip'];
+        $root_password = encrypt($response['__data']['root_password']);
         $instanceid = $response['__data']['id'];
 
         $pdo = Capsule::connection()->getPdo();
 
-        $q = $pdo->prepare("UPDATE tblhosting SET username = 'root', dedicatedip = ? WHERE id = ?");
-        $q->execute(array($instance_ip, $params['serviceid']));
+        $q = $pdo->prepare("UPDATE tblhosting SET username = 'root', password = ?, dedicatedip = ? WHERE id = ?");
+        $q->execute(array($root_password, $instance_ip, $params['serviceid']));
 
         cloudcpartner_SetInstanceID($params['pid'], $params['serviceid'], $instanceid);
     } catch (Exception $e) {
